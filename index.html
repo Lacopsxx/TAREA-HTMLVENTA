@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PP Motors</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  
+ 
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span>PP Motors</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#modelos">Modelos</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Movilidad premium, electrificada e inteligente</h1>
+        <p>Inspirada en el diseño alemán y pensada para el futuro. Rendimiento, confort y tecnología que se sienten desde el primer kilómetro.</p>
+        <div class="hero-actions">
+          <a href="#modelos" class="btn">Explorar modelos</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/images/m4.webp" alt="Vehículo PP Motors">
+      </div>
+    </div>
+  </section>
+
+   <section class="galeria" id="galeria">
+        <div class="container">
+            <h2>Nuestra Galería</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="assets/images/s1000rrCarretera.jpg" alt="Vehículo en la carretera">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/serie3-interior.webp" alt="Interior de vehículo futurista">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/serie3-noche.jpg" alt="Vehículo en la ciudad de noche">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/1300gsAventura.jpg" alt="Vehículo eléctrico en la estación de carga">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <section id="modelos" class="modelos">
+    <div class="container">
+      <h2>Nuestros vehículos</h2>
+      <div class="cards">
+        <div class="card" data-modal="modal-r1300gs">
+          <img src="assets/images/r1300gs.png" alt="BMW R1300GS">
+          <h3>BMW R1300GS</h3>
+          <p>La icónica motocicleta de aventura, lista para cualquier camino.</p>
+        </div>
+        <div class="card" data-modal="modal-x5">
+          <img src="assets/images/x5.png" alt="BMW X5">
+          <h3>BMW X5</h3>
+          <p>Un SUV premium que combina confort, potencia y elegancia.</p>
+        </div>
+        <div class="card" data-modal="modal-serie3">
+          <img src="assets/images/m340.png" alt="BMW Serie 3">
+          <h3>BMW Serie 3</h3>
+          <p>El sedán deportivo por excelencia, equilibrio perfecto entre rendimiento y estilo.</p>
+        </div>
+        <div class="card" data-modal="modal-s1000rr">
+          <img src="assets/images/s1000rr.png" alt="BMW S1000RR">
+          <h3>BMW S1000RR</h3>
+          <p>Superbike de alto rendimiento diseñada para dominar en pista y carretera.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    
+    <div>
+      <h3>PP Motors</h3>
+      <p>Inspirado en el diseño alemán, fabricamos experiencias de conducción premium, inteligentes y sostenibles.</p>
+    </div>
+
+    <div>
+      <h3>Enlaces rápidos</h3>
+      <a href="#modelos">Modelos</a><br>
+      <a href="#tecnologia">Tecnología</a><br>
+      <a href="#sostenibilidad">Sostenibilidad</a>
+    </div>
+
+
+    <div>
+      <h3>Contacto</h3>
+      <p>Email: contacto@ppmotos.com</p>
+      <p>Tel: +57 300 123 4567</p>
+      <div class="footer-socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 PP Motors. Inspirado en BMW.</p>
+  </div>
+</footer>
+
+
+
+  <div class="modal" id="modal-r1300gs">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>BMW R1300GS</h2>
+      <div class="vehicle-preview">
+        <div class="color-overlay"></div>
+        <img src="assets/images/r1300gs.png" alt="BMW R1300GS">
+      </div>
+      <p>Detalles completos de la BMW R1300GS.</p>
+      <div class="color-options">
+        <div class="color-btn" data-color="#333" data-img="assets/images/bmw__r_1250_gs-negra.png"></div>
+        <div class="color-btn" data-color="white" data-img="assets/images/r1300gsblanca.webp"></div>
+        <div class="color-btn" data-color="gray" data-img="assets/images/r1300gs.png"></div>
+      </div>
+      <button class="btn secondary save-config">Guardar configuración</button>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-x5">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>BMW X5</h2>
+      <div class="vehicle-preview">
+        <div class="color-overlay"></div>
+        <img src="assets/images/x5.png" alt="BMW X5">
+      </div>
+      <p>Detalles completos del BMW X5.</p>
+      <div class="color-options">
+        <div class="color-btn" data-color="red"  data-img="assets/images/x5-roja.webp"></div>
+        <div class="color-btn" data-color="#333" data-img="assets/images/x5negra.png"></div>
+        <div class="color-btn" data-color="gray" data-img="assets/images/x5.png"></div>
+      </div>
+      <button class="btn secondary save-config">Guardar configuración</button>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-serie3">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>BMW Serie 3</h2>
+      <div class="vehicle-preview">
+        <div class="color-overlay"></div>
+        <img src="assets/images/m340.png" alt="BMW Serie 3">
+      </div>
+      <p>Detalles completos del BMW Serie 3.</p>
+      <div class="color-options">
+        <div class="color-btn" data-color="#333" data-img="assets/images/serie3negro.webp"></div>
+        <div class="color-btn" data-color="white" data-img="assets/images/serie-3blanco.png"></div>
+        <div class="color-btn" data-color="gray" data-img="assets/images/m340.png"></div>
+      </div>
+      <button class="btn secondary save-config">Guardar configuración</button>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-s1000rr">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>BMW S1000RR</h2>
+      <div class="vehicle-preview">
+        <div class="color-overlay"></div>
+        <img src="assets/images/s1000rr.png" alt="BMW S1000RR">
+      </div>
+      <p>Detalles completos de la BMW S1000RR.</p>
+      <div class="color-options">
+        <div class="color-btn" data-color="#333" data-img="assets/images/s1000rrnegra.png"></div>
+        <div class="color-btn" data-color="white" data-img="assets/images/s1000rrblanca.png"></div>
+        <div class="color-btn" data-color="red" data-img="assets/images/s1000rr.png"></div>
+      </div>
+      <button class="btn secondary save-config">Guardar configuración</button>
+    </div>
+  </div>
+
+
+  <div class="modal" id="modal-confirmacion">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>¡Compra guardada!</h2>
+      <p>Tu configuración ha sido guardada con éxito.</p>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
